@@ -1,0 +1,20 @@
+<div (mousedown)="getZIndexFocus()" appDraggable [boundary]="'#workspace'" class="window">
+    <div appDraggableHandle class="handle">
+      <div class="handle-element"></div>
+      <div class="title">Welcome to Macintosh</div>
+      <div class="handle-element"></div>
+    </div>
+    <div class="main-window">
+
+      <iframe name="I1" id="if1" width="695px" 
+        height="462px" style="visibility:visible" 
+        src="https://www.google.com/search?igu=1">
+      </iframe>
+
+      <!--<p>
+        Hello, and welcome to Macintosh. It is sure nice to meet you! This
+        will be your intro to using the mac.
+      </p>
+      <p (click)="removeWindow()" class="window-close">Close</p>-->
+    </div>
+</div>
